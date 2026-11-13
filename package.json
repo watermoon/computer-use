@@ -1,0 +1,19 @@
+{
+  "name": "computer-use-mcp",
+  "version": "0.8.2",
+  "private": true,
+  "description": "Standalone computer_use MCP server: native mouse/keyboard control of authorized windows",
+  "license": "MIT",
+  "main": "server/computer-use-stdio.cjs",
+  "bin": {
+    "computer-use-mcp": "server/computer-use-stdio.cjs"
+  },
+  "scripts": {
+    "build:helper": "node scripts/build-helper.cjs",
+    "smoke": "node scripts/smoke.cjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "sharp": "0.35.5"
+  }
+}

@@ -1,0 +1,11 @@
+# Dependencies (npm ci restores them)
+node_modules/
+
+# Native helper build output (scripts/build-helper.cjs)
+ComputerUse.exe
+*.pdb
+
+# Local diagnostics and captures
+*.log
+.cache/
+out/
