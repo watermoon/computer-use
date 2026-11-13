@@ -2,6 +2,8 @@
 
 独立的 `computer_use` MCP 服务：把 Computer Use 能力做成一个 stdio MCP 服务器，注册进任意 MCP 客户端，让 Agent 获得 `computer_use` 工具，可以用**真实鼠标/键盘**操作本机已授权的窗口。
 
+> 从零安装、逐条断言与回滚：见 [INSTALL.md](INSTALL.md)（可直接交给 harness 执行）。
+
 ## 命名与运行时约定
 
 | 项 | 值 |
